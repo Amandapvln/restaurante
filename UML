@@ -1,0 +1,31 @@
+     +-----------------+
+     |     Restaurante |
+     +-----------------+
+     | -pedidos: ArrayList<Pedido> |
+     +-----------------+
+     | +main(String[]): void |
+     +-----------------+
+                |
+                |
+                v
+      +--------------+
+      |    Pedido    |
+      +--------------+
+      | -nome: String |
+      | -preco: double|
+      +--------------+
+      | +Pedido(nome: String, preco: double)|
+      | +getNome(): String|
+      | +getPreco(): double|
+      +--------------+
+                |
+                |
+                v
+      +--------------+
+      |    Cardapio   |
+      +--------------+
+      | -pedidos: ArrayList<Pedido> |
+      +--------------+
+      | +Cardapio() |
+      | +getPedidos(): ArrayList<Pedido> |
+      +--------------+
